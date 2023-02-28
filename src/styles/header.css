@@ -1,0 +1,35 @@
+*{
+    font-family: Consolas;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    position: fixed;
+    opacity: .8;
+    width: 98%;
+    justify-content: space-between;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main a{
+    text-decoration: none;
+    margin-left: 4em;
+    margin-right: 5px ;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
