@@ -32,4 +32,5 @@ main a{
 
 a:hover{
     color: red;
+    cursor: pointer;
 }

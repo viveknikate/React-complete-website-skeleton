@@ -19,7 +19,14 @@ const App = () => {
         <Route path="/contact" element={<Contact />}/>
         <Route path="/blogs" element={<Blogs />}/>
         <Route path="/blogs/:num" element={<Blogs />}/>
-        <Route path="*" element={<h1>Page not found 404!!</h1>} />
+        <Route path="*" element={
+                                  <div
+                                      style={{height:'80vh', display:'flex', alignItems:'center', justifyContent:'center', color:'red'}}
+                                  >
+                                    <h1>Page not found 404!!</h1>
+                                  </div>
+                                  
+                                } />
       </Routes>
       <Footer />
     </Router>
